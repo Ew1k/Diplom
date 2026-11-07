@@ -11,7 +11,7 @@ public class UserGenerator {
         String random = UUID.randomUUID().toString();
 
         return new User(
-                "User_"+ random + "@test.ru",
+                "user_"+ random + "@test.ru",
                 "123456123",
                 "Testuser"
         );

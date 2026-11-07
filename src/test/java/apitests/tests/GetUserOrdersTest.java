@@ -1,4 +1,4 @@
-package tests;
+package apitests.tests;
 
 import apitests.clients.OrderClient;
 import apitests.clients.UserClient;
