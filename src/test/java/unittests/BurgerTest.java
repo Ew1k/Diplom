@@ -1,4 +1,4 @@
-package unitTests;
+package unittests;
 
 import org.junit.jupiter.api.*;
 import praktikum.Bun;
@@ -42,7 +42,7 @@ public class BurgerTest {
 
         assertSame(bun, burger.bun);
 
-        System.out.println(bun); //0000000000000000000000000000000
+        System.out.println(bun);
     }
     @Test
     public void addIngredientAddsCorrectToList(){
