@@ -42,10 +42,10 @@ public class MainPage extends BasePage {
         click(logo);
     }
 
-    @Step("Проверить отображение кнопки входа")
-    public boolean isLoginButtonVisible() {
-        return isVisible(loginButton);
-    }
+//    @Step("Проверить отображение кнопки входа")
+//    public boolean isLoginButtonVisible() {
+//        return isVisible(loginButton);
+//    }
 
     @Step("Проверить отображение личного кабинета")
     public boolean isAccountButtonVisible() {

@@ -56,9 +56,4 @@ public abstract class BasePage {
         }
     }
 
-    protected String getText(By locator) {
-        return wait.until(
-                ExpectedConditions.visibilityOfElementLocated(locator)
-        ).getText();
-    }
 }

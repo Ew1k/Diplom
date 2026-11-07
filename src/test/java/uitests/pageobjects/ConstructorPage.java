@@ -33,10 +33,10 @@ public class ConstructorPage extends BasePage {
         );
     }
 
-    @Step("Получить координату заголовка «Булки»")
-    public double getBunsHeadingPosition() {
-        return getHeadingPosition(bunsHeading);
-    }
+//    @Step("Получить координату заголовка «Булки»")
+//    public double getBunsHeadingPosition() {
+//        return getHeadingPosition(bunsHeading);
+//    }
 
     @Step("Выбрать вкладку «Булки»")
     public void selectBuns() {
@@ -78,15 +78,15 @@ public class ConstructorPage extends BasePage {
         return isActive(getTab("Булки"));
     }
 
-    @Step("Проверить, что вкладка «Соусы» активна")
-    public boolean areSaucesActive() {
-        return isActive(getTab("Соусы"));
-    }
-
-    @Step("Проверить, что вкладка «Начинки» активна")
-    public boolean areFillingsActive() {
-        return isActive(getTab("Начинки"));
-    }
+//    @Step("Проверить, что вкладка «Соусы» активна")
+//    public boolean areSaucesActive() {
+//        return isActive(getTab("Соусы"));
+//    }
+//
+//    @Step("Проверить, что вкладка «Начинки» активна")
+//    public boolean areFillingsActive() {
+//        return isActive(getTab("Начинки"));
+//    }
 
     private boolean isActive(By locator) {
         WebElement tab = wait.until(
