@@ -23,10 +23,6 @@ public class ConstructorTest extends BaseTest {
     @Test
     public void saucesTabMovesCategoryToExpectedPosition() {
 
-        //double expectedBuns = 243.59375
-        //double expectedSauces = 243.671875
-        //double expectedFillings = 243.828125
-        //double expectedBunsAfterClick = = 243.59375
         constructorPage.selectSauces();
 
         assertTrue(

@@ -1,6 +1,5 @@
 package uitests.tests;
 
-import org.openqa.selenium.By;
 import uitests.helpers.ApiClient;
 import uitests.helpers.TestUser;
 import uitests.helpers.UserGenerator;
